@@ -2,7 +2,7 @@ package Lec3.Scanner;
 
 import java.util.Scanner;
 
-public class NewClass1 {
+public class baitap {
 
     public static void main(String[] args) {
         Scanner chu = new Scanner(System.in);
