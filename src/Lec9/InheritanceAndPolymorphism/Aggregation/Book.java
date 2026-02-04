@@ -1,6 +1,6 @@
 package Lec9.InheritanceAndPolymorphism.Aggregation;
 
-public class Book  {
+public class Book {
 
     private String BookID;
     private String title;
@@ -14,6 +14,7 @@ public class Book  {
 
     public Book() {
     }
+
     public String getID() {
         return BookID;
     }
@@ -40,8 +41,6 @@ public class Book  {
 
     @Override
     public String toString() {
-        return "Book{" + "BookID='" + BookID + '\''
-                + ", title='" + title + '\''
-                + ", author=" + author + '}';
+        return BookID + " " + title + " " + author;
     }
 }
